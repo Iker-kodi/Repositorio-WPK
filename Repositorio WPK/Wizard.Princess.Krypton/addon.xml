@@ -9,6 +9,11 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
   </extension>
+  <extension point="xbmc.addon.repository" name="Repositorio-WPK">
+        <info>https://raw.githubusercontent.com/Iker-kodi/Repositorio-WPK/master/Repositorio%20WPK/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Iker-kodi/Repositorio-WPK/master/Repositorio%20WPK/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Iker-kodi/Repositorio-WPK/master/Repositorio</datadir>
+    </extension>
   <extension point="xbmc.addon.metadata">
     <summary>Wizard</summary>
     <description>Wizard Princess para Krypton, configurando correctamente tu Kody</description> 
